@@ -11,7 +11,7 @@
 }
 
 
-.step-flow {
+main {
 	width:960px;
 	margin:50px auto;
 }
@@ -69,14 +69,14 @@
 
 
 @media screen and (max-width:768px) {
-	.step-flow {
+	main {
 	    width:90%;
 	    margin:50px auto;
     }
 
     .step1,.step2,.step3 {
 	     float: none;
-	     width:90%;
+	     width:100%;
 	     position:relative;
 	     border:1px solid #eee;
 	     padding:10px;
@@ -88,34 +88,35 @@
         }    
 
      .step-img1 {
-	     height:220px;
-	     width:90%;
+	     height:350px;
+	     width:100%;
 	     background-image: url(img/flow01.png);
          background-size: cover;
 	     background-position: bottom;
         }
 
     .step-img2 {
-	     height:220px;
-	     width:90%;
+	     height:350px;
+	     width:100%;
 	     background-image: url(img/flow02.png);
          background-size: cover;
 	     background-position: bottom;
         }
 
     .step-img3 {
-	     height:220px;
-	     width:90%;
+	     height:350px;
+	     width:100%;
 	     background-image: url(img/flow03.png);
          background-size: cover;
 	     background-position: bottom;
         }
 
     .title {
+    	 width:100%;
 	     margin:15px 0 5px;
         }
 
-
-
-
+    .text {
+    	width:100%;
+    }
 }
